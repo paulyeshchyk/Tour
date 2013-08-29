@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="120" y="120" measuredWidth="844" measuredHeight="430">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Phone%20Landscape"/>
+  </widgets>
+  <widgets xsi:type="model:CoverFlow" id="2" x="264" y="200" width="537" height="281" measuredWidth="537" measuredHeight="281"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

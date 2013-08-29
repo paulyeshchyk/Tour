@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" measuredWidth="430" measuredHeight="844">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Phone"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="45" y="143" width="361" height="40" measuredWidth="361" measuredHeight="40"/>
+  <widgets xsi:type="model:Label" id="4" x="54" y="153" width="342" text="Tour List" measuredWidth="342" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="8" x="45" y="182" measuredWidth="360" measuredHeight="268">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#List%203%20Lines"/>
+    <overrides>
+      <widgets ref="471" text="{video}Rome\n%(font:15)Second line text%\n%(font:15)Third line text%&#xA;{image}Venice\n%(font:15)Second line text%\n%(font:15)Third line text%&#xA;{image}Vienna\n%(font:15)Second line text%\n%(font:15)Third line text%">
+        <items ref="@items.0" text="{video}Rome\n%(font:15)Second line text%\n%(font:15)Third line text%"/>
+        <items ref="@items.1" text="{image}Venice\n%(font:15)Second line text%\n%(font:15)Third line text%"/>
+        <items ref="@items.2" text="{image}Vienna\n%(font:15)Second line text%\n%(font:15)Third line text%"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="10" x="374" y="151" measuredWidth="24" measuredHeight="24">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Action%20Overflow"/>
+  </widgets>
+  <widgets xsi:type="model:Accordion" id="11" x="306" y="182" text="Add tour&#xA;Download tours&#xA;Delete tours" measuredWidth="103" measuredHeight="182" selection="">
+    <items x="0" y="2" width="103" height="25" text="Add tour"/>
+    <items x="0" y="27" width="103" height="25" text="Download tours"/>
+    <items x="0" y="52" width="103" height="25" text="Delete tours"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

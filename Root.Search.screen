@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="9" measuredWidth="430" measuredHeight="844">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Phone"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="18" x="45" y="182" measuredWidth="360" measuredHeight="268">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#List%203%20Lines"/>
+    <overrides>
+      <widgets ref="471" text="{video}List item number one\n%(font:15)Tag:tag1, tag2, tag3%\n%(font:15)Description:Lorem ipsum%&#xA;{image}List item number two\n%(font:15)Tag:tag2, tag7, tag19%\n%(font:15)Description:Lorem ipsum%&#xA;{image}List item number three\n%(font:15)Tag:tag2, tag6, tag19%\n%(font:15)Description:Lorem ipsum%">
+        <items ref="@items.0" text="{video}List item number one\n%(font:15)Tag:tag1, tag2, tag3%\n%(font:15)Description:Lorem ipsum%"/>
+        <items ref="@items.1" text="{image}List item number two\n%(font:15)Tag:tag2, tag7, tag19%\n%(font:15)Description:Lorem ipsum%"/>
+        <items ref="@items.2" text="{image}List item number three\n%(font:15)Tag:tag2, tag6, tag19%\n%(font:15)Description:Lorem ipsum%"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="16" x="211" y="183" height="138" text="Text search,Tag search" measuredWidth="194" measuredHeight="138" selection="0">
+    <items x="10" y="0" width="88" height="27" text="Text search"/>
+    <items x="98" y="0" width="84" height="27" text="Tag search"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="45" y="144" width="361" height="40" measuredWidth="361" measuredHeight="40"/>
+  <widgets xsi:type="model:SearchField" id="4" x="251" y="152" width="109" text="Item" measuredWidth="109" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="85" y="154" width="212" text="Guide Rome" measuredWidth="212" measuredHeight="23" textAlignment="Center">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Accordion" id="13" x="217" y="211" width="185" height="106" text="Item One&#xA;Item Two&#xA;Item Three&#xA;Item Four" measuredWidth="185" measuredHeight="106" selection="3">
+    <items x="0" y="2" width="185" height="25" text="Item One"/>
+    <items x="0" y="27" width="185" height="25" text="Item Two"/>
+    <items x="0" y="52" width="185" height="25" text="Item Three"/>
+    <items x="0" y="77" width="185" height="25" text="Item Four"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="14" x="391" y="288" measuredWidth="3" measuredHeight="23" link="Root.Detail.Portrait.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="17" x="374" y="151" measuredWidth="24" measuredHeight="24" link="Root.Helios.screen">
+    <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Action%20Overflow"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
