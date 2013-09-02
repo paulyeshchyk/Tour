@@ -27,4 +27,13 @@
   <panels x="75" y="675">
     <screen href="Taglist.DeleteTag.screen#/"/>
   </panels>
+  <panels x="375" y="675">
+    <screen href="NewScreen.screen#/"/>
+  </panels>
+  <panels x="675" y="675">
+    <screen href="Root.Detail.Landscape.screen#/"/>
+  </panels>
+  <panels x="975" y="675">
+    <screen href="TourList.screen#/"/>
+  </panels>
 </story:Storyboard>

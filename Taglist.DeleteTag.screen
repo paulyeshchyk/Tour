@@ -56,6 +56,8 @@
     <screen xsi:type="model:WidgetGroup" href="assets/Android4/Android4.screen#Dialog"/>
     <overrides>
       <widgets ref="549" text="Delete selected?"/>
+      <widgets ref="546" link="Taglist.screen"/>
+      <widgets ref="548" link="Taglist.screen"/>
     </overrides>
   </widgets>
   <hRuler/>
